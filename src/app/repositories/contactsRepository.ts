@@ -1,6 +1,15 @@
 class ContactsRepository {
-    findAll(){
+    async findAll(){
         return null;
+    }
+
+    async findById(id: string){
+
+        return [];
+    }
+
+    async delete(id: string){
+        return [];
     }
 
 }
